@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(/sonic-shadow-intense-duel-desktop-wallpaper-4k.jpg);
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display:flex;
+    background-color:white;
+    align-items: centre;
+    height:100%;
+    justify-content: space-between;
+}
+.logo {
+   
+    margin-left: 100px; 
+}
+.logo a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 30px;
+    
+
+}
+nav{
+    height:50px;
+}
+nav ul {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 500px;
+}
+
+nav ul li a{
+    display:inline-flex;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.562);
+    font-family: arial;
+    font-size: 30px;
+}
+nav ul li a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: orangered;
+}
